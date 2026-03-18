@@ -1,7 +1,7 @@
 """
 ascii_play.renderers
-~~~~~~~~~~~~~~~~~~~~
-Frame → ANSI string renderers.
+
+Frame TO Ansi string renderers.
 
 Each renderer signature:
     fn(frame: np.ndarray, cols: int, rows: int, quality: int) -> str

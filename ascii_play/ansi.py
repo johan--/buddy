@@ -1,6 +1,6 @@
 """
-ascii_play.ansi
-~~~~~~~~~~~~~~~
+ascii_play.ansi module for conversion of RGB to AnSi values..COlored
+
 ANSI/VT100 escape sequence helpers.
 All functions return strings — callers write them to stdout.
 """

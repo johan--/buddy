@@ -1,6 +1,7 @@
 """
 ascii_play.player
-~~~~~~~~~~~~~~~~~
+
+
 Video decode + render loop.
 """
 

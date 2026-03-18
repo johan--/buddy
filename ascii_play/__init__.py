@@ -1,7 +1,7 @@
 """ascii_play — live terminal video player with true 24-bit color rendering."""
 
 __version__ = "0.1.0"
-__author__  = "your name"
+__author__  = "JVSCHANDRADITHYA"
 
 from .player    import play
 from .renderers import MODES

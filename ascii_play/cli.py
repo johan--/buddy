@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 cli.py — buddy
-~~~~~~~~~~~~~~
-Entry point. Run directly:
+
+Entry point. for cli tool Run directly:
 
     python cli.py video.mp4
     python cli.py play video.mp4 -m braille -q 3
@@ -10,7 +10,7 @@ Entry point. Run directly:
     python cli.py help
 
 Or via wrapper scripts:
-    buddy video.mp4
+    buddy video.mp4 / this is after running either pip install -e or setup.sh/.bat
 """
 
 import sys
