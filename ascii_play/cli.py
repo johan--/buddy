@@ -56,7 +56,7 @@ HELP = r"""
  | |_) | |_| | (_| | (_| | |_| |
  |_.__/ \__,_|\__,_|\__,_|\__, |
                            |___/
- live terminal video player  v0.1.0
+ live terminal video player  v0.1.2
 
 USAGE
   buddy <video>                     Play a video (smart default)
