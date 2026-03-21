@@ -10,8 +10,6 @@ frame  : (H, W, 3) uint8 RGB
 cols   : terminal columns to fill
 rows   : terminal rows to fill
 quality: 1-3 passed to resize_frame
-
-All renderers are fully vectorized — no Python loops over individual pixels.
 """
 
 import numpy as np
@@ -50,7 +48,7 @@ def render_half(frame: np.ndarray, cols: int, rows: int,
     return move_home() + "\n".join("".join(row) for row in cells) + reset()
 
 
-# ── ASCII density ─────────────────────────────────────────────────────────────
+# ── ASCII density 
 
 _ASCII_CHARS = np.array(list(" .:-=+*#%@"))
 
